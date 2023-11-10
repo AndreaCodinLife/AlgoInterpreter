@@ -1,0 +1,22 @@
+Constants:
+pi = 3.14
+Variables: 
+x : int
+y : int
+i : int
+Begin
+x <- 5
+y <- 2
+If (x = 4) Then
+Write('Test')
+x <- 4
+Else
+Write('Else juck')
+End If
+While (x > 0) Do
+x <- x - 1
+Write(x)
+End While
+Write(pi)
+Write(x + y)
+End
